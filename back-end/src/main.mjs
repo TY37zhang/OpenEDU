@@ -1,6 +1,6 @@
-import * as NetworkCore from './src/networking/NetworkCore.mjs';
-import * as Utils from './src/util/Util.mjs';
-import * as Logger from './src/util/Logger.mjs';
+import * as NetworkCore from './networking/NetworkCore.mjs';
+import * as Utils from './util/Util.mjs';
+import * as Logger from './util/Logger.mjs';
 
 async function startApp() {
   await NetworkCore.startServer(3001);
