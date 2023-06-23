@@ -2,13 +2,13 @@
   "version": 2,
   "builds":[
     {
-      "src":"./src/*.mjs",
+      "src":"./src/main.mjs",
       "use":"@vercel/node"
     }
   ],
   "routes":[
     {
-      "src":"/(.*)",
+      "src":"./server/(.*)",
       "dest":"/"
     }
   ]
