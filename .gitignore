@@ -267,3 +267,4 @@ dist
 .vscode
 
 back-end/creds
+.vercel
