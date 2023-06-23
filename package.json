@@ -1,1 +1,18 @@
-{}
+{
+  "name": "open-edu",
+  "version": "1.0.0",
+  "description": "#",
+  "main": "main.mjs",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TY37zhang/OpenEDU.git"
+  },
+  "author": "Tianyin Zhang",
+  "license": "ISC",
+  "homepage": "https://github.com/TY37zhang/OpenEDU"
+}
